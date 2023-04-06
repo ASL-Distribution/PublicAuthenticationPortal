@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="Admin.aspx" title="Main Menu"  description="">
+    <siteMapNode url="CRUD.aspx?table=Users&amp;hidden=ID,Username,VerificationCode,Verified,PasswordResetVerificationCode,SignInToken,TokenTimeStamp,role&amp;title=Users&amp;search=Email" title="Manage Users"  description="" />
+  </siteMapNode>
+</siteMap>
