@@ -11,7 +11,7 @@ namespace PublicAuthenticationPortal
     {
         private static string GetConnectionString()
         {
-            return "Server=10.10.20.180;Port=5432;User Id=postgres;Password=Icecool1;Database=postgres;";
+            return "Server=10.10.101.116;Port=5433;User Id=postgres;Password=Icecool1;Database=postgres;";
         }
 
         public static DataSet Execute(string command)
