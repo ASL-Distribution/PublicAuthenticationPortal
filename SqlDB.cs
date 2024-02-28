@@ -11,7 +11,7 @@ namespace PublicAuthenticationPortal
     {
         private static string GetConnectionString()
         {
-            return "Server = asl-cl-db1; Database = authentication; User Id = sa; Password = Icecool1; Connection Timeout=600";
+            return "Server = 10.10.101.115; Database = authentication; User Id = dmzuser; Password = Logistics44%; Connection Timeout=600";
         }
 
         public static DataSet GetData(string command)
