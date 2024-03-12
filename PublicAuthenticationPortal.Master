@@ -13,7 +13,7 @@
     document.onkeypress = stopRKey;
 </script>
 <head runat="server">
-    <title>ASL Reporting</title>
+    <title>ASL Public Authentication Managment Portal</title>
     <link href="~/Style.css" rel="stylesheet" type="text/css" runat="server" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
