@@ -55,11 +55,11 @@ namespace PublicAuthenticationPortal
             if (Authentication.LoggedIn(this.Page))
             {
                 string token = Authentication.SetToken(this.Page);
-                Response.Redirect("http://10.10.20.4/enterprisemastersite/enterprisemastersite/landingpage.aspx?token=" + token);
+                Response.Redirect("http://http://10.10.101.113/EnterpriseMasterSite/landingpage.aspx?token=" + token);
             }
             else
             {
-                Response.Redirect("http://10.10.20.4/enterprisemastersite/enterprisemastersite/login.aspx");
+                Response.Redirect("http://10.10.101.113/EnterpriseMasterSite/login.aspx");
             }
         }
     }
