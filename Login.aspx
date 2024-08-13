@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#"  MasterPageFile="~/PublicAuthenticationPortal.Master" AutoEventWireup="true" CodeFile="Login.aspx.cs" Inherits="PublicAuthenticationPortal.Login" %>
+﻿<%@ Page Language="C#"  MasterPageFile="~/PublicAuthenticationPortal.Master" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="PublicAuthenticationPortal.Login" %>
 
 <asp:Content ID="content" ContentPlaceHolderID="cph" runat="server">
     <div "ChildMainDiv">
